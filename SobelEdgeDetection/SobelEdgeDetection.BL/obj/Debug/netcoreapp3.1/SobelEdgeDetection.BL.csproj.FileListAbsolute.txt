@@ -1,9 +1,0 @@
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\bin\Debug\netcoreapp3.1\SobelEdgeDetection.BL.deps.json
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\bin\Debug\netcoreapp3.1\SobelEdgeDetection.BL.dll
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\bin\Debug\netcoreapp3.1\SobelEdgeDetection.BL.pdb
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\obj\Debug\netcoreapp3.1\SobelEdgeDetection.BL.csprojAssemblyReference.cache
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\obj\Debug\netcoreapp3.1\SobelEdgeDetection.BL.AssemblyInfoInputs.cache
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\obj\Debug\netcoreapp3.1\SobelEdgeDetection.BL.AssemblyInfo.cs
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\obj\Debug\netcoreapp3.1\SobelEdgeDetection.BL.csproj.CoreCompileInputs.cache
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\obj\Debug\netcoreapp3.1\SobelEdgeDetection.BL.dll
-C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection.BL\obj\Debug\netcoreapp3.1\SobelEdgeDetection.BL.pdb
