@@ -1,0 +1,15 @@
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.exe
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.deps.json
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.runtimeconfig.json
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.runtimeconfig.dev.json
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.dll
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.pdb
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csprojAssemblyReference.cache
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.MainForm.resources
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csproj.GenerateResource.cache
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.AssemblyInfoInputs.cache
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.AssemblyInfo.cs
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csproj.CoreCompileInputs.cache
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.dll
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.pdb
+C:\Users\ol140\source\repos\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.genruntimeconfig.cache
