@@ -1,1 +1,2 @@
-ImageProcessing.SobelEdgeDetection
+ImageProcessing by Sobel Edge Detection.
+Created on Windows Forms .NET
