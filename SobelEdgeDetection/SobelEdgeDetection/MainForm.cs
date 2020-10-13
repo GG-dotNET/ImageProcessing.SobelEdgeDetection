@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SobelEdgeDetection.Interfaces;
+using SobelEdgeDetection.Repository;
 
 namespace SobelEdgeDetection
 {
@@ -17,15 +19,14 @@ namespace SobelEdgeDetection
             InitializeComponent();
         }
 
-        private string filePath;
-        
         private void btnOpen_Click(object sender, EventArgs e)
         {
             if (dOpen.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
-                    filePath = dOpen.FileName;
+                    IOpenFile openFile = new FileManager();
+                    openFile.FilePath = dOpen.FileName;
                     pictureBox1.Image = new Bitmap(dOpen.OpenFile());
                 }
                 catch (Exception exception)
@@ -38,7 +39,7 @@ namespace SobelEdgeDetection
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            Sobel sobel = new Sobel();
+            ISobelModel sobel = new Sobel();
             sobel.SobelEdgeDetection(pictureBox1, pictureBox2);
         }
 
@@ -46,18 +47,14 @@ namespace SobelEdgeDetection
         {
             if (pictureBox2.Image != null)
             {
-                SaveFileDialog sfd = new SaveFileDialog();
-                sfd.Title = "Сохранить картинку как... ";
-                sfd.OverwritePrompt = true;
-                sfd.CheckPathExists = true;
-                sfd.Filter = "Image Files(*.JPG)|*.JPG|All files(*.*)|*.*";
-                sfd.ShowHelp = true;
+                ISaveFile saveFile = new FileManager();
+                saveFile.SaveFile();
 
-                if (sfd.ShowDialog() == DialogResult.OK)
+                if (saveFile.sfd.ShowDialog() == DialogResult.OK)
                 {
                     try
                     {
-                        pictureBox2.Image.Save(sfd.FileName);
+                        pictureBox2.Image.Save(saveFile.sfd.FileName);
                     }
                     catch
                     {

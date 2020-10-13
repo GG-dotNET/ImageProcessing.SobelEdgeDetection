@@ -3523,19 +3523,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ol140\\.nuget\\packages\\": {}
+    "C:\\Users\\Lieberman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection.Tests\\SobelEdgeDetection.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.Tests\\SobelEdgeDetection.Tests.csproj",
       "projectName": "SobelEdgeDetection.Tests",
-      "projectPath": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection.Tests\\SobelEdgeDetection.Tests.csproj",
-      "packagesPath": "C:\\Users\\ol140\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection.Tests\\obj\\",
+      "projectPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.Tests\\SobelEdgeDetection.Tests.csproj",
+      "packagesPath": "C:\\Users\\Lieberman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ol140\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lieberman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3548,8 +3548,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj": {
-              "projectPath": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj"
+            "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj": {
+              "projectPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj"
             }
           }
         }

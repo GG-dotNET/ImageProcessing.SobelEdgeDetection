@@ -3,35 +3,47 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using SobelEdgeDetection.Interfaces;
 
 namespace SobelEdgeDetection
 {
-    public class Sobel
+    public class Sobel : ISobelModel
     {
+        public Bitmap b { get; set; }
+        public Bitmap bb { get; set; }
+
+        public int Width { get; set; }
+        public int Height { get; set; }
+
+        public int[,] allPixR { get; set; }
+        public int[,] allPixG { get; set; }
+        public int[,] allPixB { get; set; }
+
+
         public void SobelEdgeDetection(PictureBox pictureBox1, PictureBox pictureBox2)
         {
-            Bitmap b = new Bitmap(pictureBox1.Image);
-            Bitmap bb = new Bitmap(pictureBox1.Image);
-            int width = b.Width;
-            int height = b.Height;
-            int[,] gx = new int[,] { { -1, 0, 1 }, { -2, 0, 2 }, { -1, 0, 1 } };
-            int[,] gy = new int[,] { { 1, 2, 1 }, { 0, 0, 0 }, { -1, -2, -1 } };
+            b = new Bitmap(pictureBox1.Image);
+            bb = new Bitmap(pictureBox1.Image);
+            Width = b.Width;
+            Height = b.Height;
+            pictureBox2.Image = bb;
 
-            int[,] allPixR = new int[width, height];
-            int[,] allPixG = new int[width, height];
-            int[,] allPixB = new int[width, height];
+            allPixR = new int[Width, Height];
+            allPixG = new int[Width, Height];
+            allPixB = new int[Width, Height];
 
-            int limit = 128 * 128;
-
-            for (int i = 0; i < width; i++)
+            for (int i = 0; i < Width; i++)
             {
-                for (int j = 0; j < height; j++)
+                for (int j = 0; j < Height; j++)
                 {
                     allPixR[i, j] = b.GetPixel(i, j).R;
                     allPixG[i, j] = b.GetPixel(i, j).G;
                     allPixB[i, j] = b.GetPixel(i, j).B;
                 }
             }
+
+            int[,] gx = new int[,] { { -1, 0, 1 }, { -2, 0, 2 }, { -1, 0, 1 } };
+            int[,] gy = new int[,] { { 1, 2, 1 }, { 0, 0, 0 }, { -1, -2, -1 } };
 
             int new_rx = 0, new_ry = 0;
             int new_gx = 0, new_gy = 0;
@@ -69,14 +81,16 @@ namespace SobelEdgeDetection
                             new_by += gy[wi + 1, hw + 1] * bc;
                         }
                     }
+
+                    int limit = 128 * 128;
+
                     if (new_rx * new_rx + new_ry * new_ry > limit || new_gx * new_gx + new_gy * new_gy > limit || new_bx * new_bx + new_by * new_by > limit)
                         bb.SetPixel(i, j, Color.Black);
-                    //bb.SetPixel (i, j, Color.FromArgb(allPixR[i,j],allPixG[i,j],allPixB[i,j]));
                     else
                         bb.SetPixel(i, j, Color.White);
                 }
             }
-            pictureBox2.Image = bb;
+
         }
     }
 }

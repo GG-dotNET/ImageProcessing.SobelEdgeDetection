@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/T6qWWftagQS0/VJlLsaWW4Tb46TMIP+YfngXU+UnhxBPnGhm9bYGI5zmvRq9TcyJdBEbbsi9zMf406SCP8vw==",
+  "dgSpecHash": "2tvQ7FuZb0HWX+sKXBzd1rmdMN/QnoZFd2V7mvUdmYMhHfTVij8JrwgS5Et/taeXbf1UJMPXyYYnndQZOsFNvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
+  "projectFilePath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

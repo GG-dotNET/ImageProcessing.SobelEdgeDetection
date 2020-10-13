@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ol140\\.nuget\\packages\\": {}
+    "C:\\Users\\Lieberman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
+      "projectUniqueName": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
       "projectName": "SobelEdgeDetection",
-      "projectPath": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
-      "packagesPath": "C:\\Users\\ol140\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ol140\\source\\repos\\SobelEdgeDetection\\SobelEdgeDetection\\obj\\",
+      "projectPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
+      "packagesPath": "C:\\Users\\Lieberman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ol140\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lieberman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
