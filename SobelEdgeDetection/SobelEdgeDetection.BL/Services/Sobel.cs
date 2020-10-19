@@ -1,22 +1,36 @@
-﻿using SobelEdgeDetection.Interfaces;
+﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Text;
 using System.Windows.Forms;
+using SobelEdgeDetection.Interfaces;
 
 namespace SobelEdgeDetection
 {
-    public class Sobel : IProcessingMethod
+    public class Sobel : ISobelModel
     {
+        public Bitmap b { get; set; }
+        public Bitmap bb { get; set; }
+
+        public int Width { get; set; }
+        public int Height { get; set; }
+
+        public int[,] allPixR { get; set; }
+        public int[,] allPixG { get; set; }
+        public int[,] allPixB { get; set; }
+
+
         public void SobelEdgeDetection(PictureBox pictureBox1, PictureBox pictureBox2)
         {
-            var b = new Bitmap(pictureBox1.Image);
-            var bb = new Bitmap(pictureBox1.Image);
-            var Width = b.Width;
-            var Height = b.Height;
+            b = new Bitmap(pictureBox1.Image);
+            bb = new Bitmap(pictureBox1.Image);
+            Width = b.Width;
+            Height = b.Height;
             pictureBox2.Image = bb;
 
-            int[,] allPixR = new int[Width, Height];
-            int[,] allPixG = new int[Width, Height];
-            int[,] allPixB = new int[Width, Height];
+            allPixR = new int[Width, Height];
+            allPixG = new int[Width, Height];
+            allPixB = new int[Width, Height];
 
             for (int i = 0; i < Width; i++)
             {

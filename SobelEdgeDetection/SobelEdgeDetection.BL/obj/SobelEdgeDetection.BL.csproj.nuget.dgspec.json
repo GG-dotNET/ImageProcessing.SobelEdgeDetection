@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.BL\\SobelEdgeDetection.BL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.BL\\SobelEdgeDetection.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.BL\\SobelEdgeDetection.BL.csproj",
+        "projectName": "SobelEdgeDetection.BL",
+        "projectPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.BL\\SobelEdgeDetection.BL.csproj",
+        "packagesPath": "C:\\Users\\Lieberman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lieberman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj": {
+                "projectPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
+        "projectName": "SobelEdgeDetection",
+        "projectPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection.csproj",
+        "packagesPath": "C:\\Users\\Lieberman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lieberman\\Desktop\\Projects\\Repositories\\ImageProcessing.SobelEdgeDetection\\SobelEdgeDetection\\SobelEdgeDetection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lieberman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

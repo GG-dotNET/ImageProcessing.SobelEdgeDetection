@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using SobelEdgeDetection.Interfaces;
+using SobelEdgeDetection.Managers;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using SobelEdgeDetection.Interfaces;
-using SobelEdgeDetection.Repository;
 
 namespace SobelEdgeDetection
 {
-    public partial class MainForm : Form
+    public partial class ImageProcessingForm : Form
     {
-        public MainForm()
+        public ImageProcessingForm()
         {
             InitializeComponent();
         }
+
+        SaveFileDialog sfd = new SaveFileDialog();
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
@@ -39,7 +35,7 @@ namespace SobelEdgeDetection
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            ISobelModel sobel = new Sobel();
+            IProcessingMethod sobel = new Sobel();
             sobel.SobelEdgeDetection(pictureBox1, pictureBox2);
         }
 
@@ -48,13 +44,13 @@ namespace SobelEdgeDetection
             if (pictureBox2.Image != null)
             {
                 ISaveFile saveFile = new FileManager();
-                saveFile.SaveFile();
+                saveFile.SaveFile(sfd);
 
-                if (saveFile.sfd.ShowDialog() == DialogResult.OK)
+                if (sfd.ShowDialog() == DialogResult.OK)
                 {
                     try
                     {
-                        pictureBox2.Image.Save(saveFile.sfd.FileName);
+                        pictureBox2.Image.Save(sfd.FileName);
                     }
                     catch
                     {

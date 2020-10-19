@@ -1,6 +1,6 @@
 ﻿namespace SobelEdgeDetection
 {
-    partial class MainForm
+    partial class ImageProcessingForm
     {
         /// <summary>
         ///  Required designer variable.
