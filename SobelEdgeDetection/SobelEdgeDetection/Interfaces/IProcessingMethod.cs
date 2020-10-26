@@ -1,9 +1,9 @@
-﻿using System.Windows.Forms;
+﻿using System.Drawing;
 
 namespace SobelEdgeDetection.Interfaces
 {
     interface IProcessingMethod
     {
-        void SobelEdgeDetection(PictureBox pictureBox1, PictureBox pictureBox2);
+        Bitmap Make(Bitmap image);
     }
 }

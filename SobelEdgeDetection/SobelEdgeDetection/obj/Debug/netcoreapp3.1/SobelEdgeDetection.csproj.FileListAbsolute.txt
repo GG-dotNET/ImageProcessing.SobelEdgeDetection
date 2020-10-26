@@ -19,12 +19,14 @@ C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetect
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.runtimeconfig.dev.json
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.dll
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\SobelEdgeDetection.pdb
-C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csprojAssemblyReference.cache
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csproj.GenerateResource.cache
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.AssemblyInfoInputs.cache
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.AssemblyInfo.cs
-C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csproj.CoreCompileInputs.cache
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.dll
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.pdb
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.genruntimeconfig.cache
 C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.ImageProcessingForm.resources
+C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csproj.CopyComplete
+C:\Users\Lieberman\Desktop\Projects\Repositories\ImageProcessing.SobelEdgeDetection\SobelEdgeDetection\SobelEdgeDetection\obj\Debug\netcoreapp3.1\SobelEdgeDetection.csproj.CoreCompileInputs.cache

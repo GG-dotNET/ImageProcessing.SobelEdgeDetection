@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SobelEdgeDetection", "SobelEdgeDetection\SobelEdgeDetection.csproj", "{EDAEDDF5-D55D-4195-AA8C-41799C03E831}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SobelEdgeDetection.Tests", "SobelEdgeDetection.Tests\SobelEdgeDetection.Tests.csproj", "{679A29A3-AF51-47B7-95B7-C1E4B79D3A24}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{EDAEDDF5-D55D-4195-AA8C-41799C03E831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDAEDDF5-D55D-4195-AA8C-41799C03E831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDAEDDF5-D55D-4195-AA8C-41799C03E831}.Release|Any CPU.Build.0 = Release|Any CPU
-		{679A29A3-AF51-47B7-95B7-C1E4B79D3A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{679A29A3-AF51-47B7-95B7-C1E4B79D3A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{679A29A3-AF51-47B7-95B7-C1E4B79D3A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{679A29A3-AF51-47B7-95B7-C1E4B79D3A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
